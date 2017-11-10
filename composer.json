@@ -12,7 +12,6 @@
 	},
 	"require": {
 		"php": ">=5.3.7",
-		"twbs/bootstrap": "4.0.0-beta.2"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
