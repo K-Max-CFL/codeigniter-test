@@ -1,0 +1,112 @@
+//Variables
+@import "variables";
+
+//Main Project Styling
+body {
+	background-color: $off-black;
+	color: $dark-white;
+	font-family: $font-sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h1 {
+	margin-top: 50px;
+}
+
+a {
+	color: $off-white;
+
+	&:hover {
+		color: $off-white;
+		text-decoration: none;
+	}
+}
+
+p {
+	color: #777;
+}
+
+nav {
+	background-color: $dark-grey;
+	color: #777;
+	text-transform: uppercase;
+
+	.nav-link {
+		color: #777;
+	}
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.btn-primary {
+	background-color: $light-red;
+	color: $off-white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 0;
+	border: none;
+	width: 300px;
+	padding: 10px 0px 5px;
+    display: block;
+
+    &:hover {
+    	background-color: $light-red;
+    	border: none;
+    }
+}
+
+.form-control {
+	display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+label {
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.btn-link {
+	margin: 23px 0px 0px;
+    color: #a4a4a4;
+    text-decoration: underline;
+
+    &:hover {
+    	color: #a4a4a4;
+    }
+}
+
+form {
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 200px;
+	border-top: 6px solid $dark-red;
+	height: 200px;
+}
+
+code {
+	background-color: black;
+	color: $dark-red;
+}

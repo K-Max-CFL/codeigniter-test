@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700");
+/* Colours */
+/* line 5, ../sass/style.scss */
+body {
+  background-color: #202020;
+  color: #cccccc;
+  font-family: "Khand", sans-serif;
+}
+
+/* line 11, ../sass/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 21, ../sass/style.scss */
+h1 {
+  margin-top: 50px;
+}
+
+/* line 25, ../sass/style.scss */
+a {
+  color: #fcfcfc;
+}
+/* line 28, ../sass/style.scss */
+a:hover {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+/* line 34, ../sass/style.scss */
+p {
+  color: #777;
+}
+
+/* line 38, ../sass/style.scss */
+nav {
+  background-color: #2a2a2a;
+  color: #777;
+  text-transform: uppercase;
+}
+/* line 43, ../sass/style.scss */
+nav .nav-link {
+  color: #777;
+}
+
+/* line 48, ../sass/style.scss */
+.container {
+  margin-top: 50px;
+}
+
+/* line 52, ../sass/style.scss */
+.btn-primary {
+  background-color: #c51a20;
+  color: #fcfcfc;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  width: 300px;
+  padding: 10px 0px 5px;
+  display: block;
+}
+/* line 63, ../sass/style.scss */
+.btn-primary:hover {
+  background-color: #c51a20;
+  border: none;
+}
+
+/* line 69, ../sass/style.scss */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid white;
+  border-radius: 0;
+}
+
+/* line 83, ../sass/style.scss */
+label {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 89, ../sass/style.scss */
+.btn-link {
+  margin: 23px 0px 0px;
+  color: #a4a4a4;
+  text-decoration: underline;
+}
+/* line 94, ../sass/style.scss */
+.btn-link:hover {
+  color: #a4a4a4;
+}
+
+/* line 99, ../sass/style.scss */
+form {
+  margin-top: 50px;
+}
+
+/* line 103, ../sass/style.scss */
+footer {
+  margin-top: 200px;
+  border-top: 6px solid #931a20;
+  height: 200px;
+}
+
+/* line 109, ../sass/style.scss */
+code {
+  background-color: black;
+  color: #931a20;
+}
